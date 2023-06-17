@@ -2,8 +2,8 @@
 
 ## Task 1
 
-### Link deploy on vercel : https://test-fe-elemes-id.vercel.app/
+Link deploy on vercel : https://test-fe-elemes-id.vercel.app/
 
 ### Task 2
  
-## Yang perlu ditambahkan di website elemes.id adalah perlu adanya animation agar lebih menarik. perlu juga jika adanya AI, misalnya chatbot untuk berinteraksi dengan client.
+What needs to be added to the elemes.id website is the need for animation to make it more interesting. it is also necessary if there is AI, for example a chatbot to interact with clients.
