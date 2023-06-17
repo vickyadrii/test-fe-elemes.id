@@ -19,6 +19,7 @@ const Category = () => {
       <div className="flex justify-center gap-3 w-full min-h-[195px]">
         {category.map(({ id, desc, icon_url, name, color }) => (
           <div
+            key={id}
             className={`w-[230px] h-[175px] hover:h-[195px] relative bg-cover flex justify-center flex-col items-center gap-6 rounded-md cursor-pointer transition-all duration-200 ease-out`}
             style={{
               backgroundColor: color,

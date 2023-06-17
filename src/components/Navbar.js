@@ -6,7 +6,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="p-5 flex justify-between items-center sticky top-0 z-50 bg-white">
-      <Image src={logo} />
+      <Image src={logo} alt="logo" />
       <ul className="flex items-center gap-10 text-sm font-medium text-secondary">
         {MenuList.map(({ id, navigate, text, isHot }) => (
           <Link key={id} href={navigate}>

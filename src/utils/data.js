@@ -15,6 +15,11 @@ import trending6 from "../../public/images/trending6.png";
 import trending7 from "../../public/images/trending7.png";
 import trending8 from "../../public/images/trending8.png";
 
+// left footer icons
+import email from "../../public/icons/email.svg";
+import phone from "../../public/icons/phone.svg";
+import instagram from "../../public/icons/instagram.svg";
+
 export const MenuList = [
   {
     text: "Home",
@@ -137,5 +142,17 @@ export const trending = [
     name: "Kathi Kebab",
     category: "Kebab",
     color: "#EAEEFA",
+  },
+];
+
+export const leftFooter = [
+  {
+    icons_url: email,
+  },
+  {
+    icons_url: phone,
+  },
+  {
+    icons_url: instagram,
   },
 ];

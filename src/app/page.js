@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Category from "@/components/Category";
 import background from "../../public/images/background-header.png";
 import Trending from "@/components/Trending";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Header />
         <Category />
         <Trending />
+        <Footer />
       </div>
       <div></div>
     </>

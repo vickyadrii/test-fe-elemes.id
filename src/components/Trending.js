@@ -18,6 +18,7 @@ const Trending = () => {
       <div className="grid grid-cols-4 gap-x-2 gap-y-6">
         {trending.map(({ id, icon_url, name, category, color }) => (
           <div
+            key={id}
             className={`w-[288px] h-[306px] px-4 py-8 relative bg-cover backdrop-blur-lg shadow-xl shadow-slate-600/10 flex flex-col gap-4 rounded-[17px] cursor-pointer transition-all duration-200 ease-out`}
             style={{
               backgroundColor: color,
