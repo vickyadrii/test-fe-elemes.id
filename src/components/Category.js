@@ -14,7 +14,7 @@ const Category = () => {
   const [index, setIndex] = useState(null);
 
   return (
-    <div className="flex flex-col gap-5 p-5">
+    <div className="flex flex-col gap-10 p-5">
       <Title title="Browser Our Category Receipt" desc="Receipt" />
       <div className="flex justify-center gap-3 w-full min-h-[195px]">
         {category.map(({ id, desc, icon_url, name, color }) => (
@@ -33,7 +33,7 @@ const Category = () => {
             {isHover && id === index && (
               <Image
                 src={background}
-                alt="icons"
+                alt="background"
                 className="absolute top-0 object-cover h-full opacity-5"
               />
             )}
