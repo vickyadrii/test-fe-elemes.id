@@ -10,7 +10,7 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 
 const Header = () => {
   return (
-    <div className="flex justify-between items-center h-[80vh] p-5">
+    <div className="flex justify-between items-center h-[90vh] p-5">
       <div className="max-w-md flex flex-col gap-6">
         <h2 className="font-medium text-[64px] text-primary leading-[70px]">
           Good Food Us Good Mood
